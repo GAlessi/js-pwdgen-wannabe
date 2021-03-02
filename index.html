@@ -32,8 +32,10 @@
             var nome = prompt("Inserisci il tuo NOME");
             var cognome = prompt("Inserisci il tuo COGNOME");
             var colore = prompt("Inserisci il tuo COLORE preferito");
+            var etaString = prompt("Inserisci la tuo ETA'");
+            var etaNumber = parseInt(etaString)
 
-            document.getElementById("printInfo").innerHTML = (nome + cognome + colore + 19);
+            document.getElementById("printInfo").innerHTML = ("Nome: " + nome + "<br>" + "Cognome: " + cognome + "<br>" + "Colore preferito: " + colore + "<br>" + "Età: " + etaNumber);
 
         </script>
     </body>
